@@ -1,0 +1,7 @@
+html, body{height:100vh;margin: 0;}
+.bbva{background-color: #072146;padding: 25px 5px;}
+.bbva img{width: 200px;height: 40px;}
+.show{height:100%;width: 100%;background-color: #fff; margin:0 auto; text-align: center;  font-family: Arial, Helvetica, sans-serif;}
+.show #container h1{font-size: 36px;color: #333;}
+.show #container input{font-size: 16px;padding: 32px 16px 8px;width: 20%;height: 15px;border-top: none;border-right: none;border-left: none;border-image: initial;border-bottom: 1px solid rgb(18, 18, 18);background: rgb(244, 244, 244);}
+.btns{border-radius: 1px;width: 128px;height: 48px;background: rgb(35, 122, 186);border: 0px;color: rgb(255, 254, 254);font-weight: 700;filter: none;box-shadow: none;cursor: pointer;padding: 0px;}
