@@ -6,28 +6,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="bbva" >
-      <img src="./img/logo_bbva_blanco.svg" alt="bbva" >
+    <header class="bbva" > 
+      <a href="/">
+        <img src="./img/logo_bbva_blanco.svg" alt="bbva" >
+      </a>
     </header>
-    <main class="show">
+    <main class="main">
       <!-- Input -->
       <section id="container" >
         <br>
         <h1>Valida tu tarjeta</h1>
         <input type="text" id="cardNumber" maxlength="16" placeholder="Número de Tarjeta">
         <p id="textAlert" class="hide"></p>
-        <p></p>
+        <br>
         <button class="btns" id="btnValid">Validar</button>
       </section>
+      <!-- Output -->
       <section id="containerResult" class="hide">
-        huikjnhui
-            <h1 id="message"></h1>
-            <h2 id="numberMaskify"></h2>
-            <button class="btns">Regresar</button>
-        </section>
+        <br>
+        <h2 id="message" ></h2>
+        <h3 id="numberMaskify"></h3>
+        <br>
+        <button class="btns" id="return">Regresar</button>
       </section>
     </main>
-    <footer></footer>
+    <footer class="bbva">
+      <a href="/">
+        <img src="./img/logo_bbva_blanco.svg" alt="bbva" >
+      </a>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

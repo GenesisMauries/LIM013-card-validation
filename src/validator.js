@@ -27,6 +27,17 @@ const validator = {
         verified = true
     }
     return verified
+},
+maskify:(num)=>{
+  let maskify2 = '';
+  for(let i=0; i<num.length; i++){
+      if(i<=num.length-5){
+          maskify2 = maskify2 + '*';
+      }else{
+          maskify2 = maskify2 + num[i];
+      }
+  }
+  return maskify2
 }
 };
 
